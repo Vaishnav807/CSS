@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <style>
+            h1 {
+                color: red;
+                font-family: 'Courier New' , Courier , monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class = "blue bold" id = "Title">Hi my name is Vaishnava Hari Yogesh</h1>
+        <br>
+        <a href="#Information" class = "Information">Information Section</a>
+        <br>
+        <img src="https://uhdwallpapers.org/uploads/cache/1518948380/bmw-i8_600x338-mm-90.jpg">
+        
+        <div id = "Information">
+            <p>Hello<br><strong> World!</strong> </p>
+
+            <h2><em>Bacon and eggs</em></h2>
+
+            <h3 id = "favorite" class = "heading-background">Favorite Colors</h3>
+            <ol>
+                <h5>Color1</h5>
+                <li>Blue</li>
+                <h5>Color1</h5>
+                <li>Black</li>
+                <h5>Color1</h5>
+                <li>Peach</li>
+            </ol>
+
+            <h3 class = "heading-background">Favorite Games</h3>
+            <ul class="games">
+                <li>Tennis</li>
+                <li>Badminton</li>
+            </ul>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUJcmljayByb2xs" target="_blank">Must Watch!</a>
+            <br>
+            <a href="./about.html" target="_blank">
+                <img src="https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_10014239/Image/News/newwebsite.jpg" wdith="200" height="200">
+            </a>
+
+            <table border ="1">
+                <thead>
+                     <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Job</th>
+                        <th scope="col">Age</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr>
+                        <td rowspan="2", scope="row">Mr. Tribolet</td>
+                        <td>Teacher</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>Coach</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2", scope="row">Prewitt</td>
+                        <td>29</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2", scope="row">Total Age</td>
+                        <td>87</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <form action="/example.html" method="POST">
+                <label for="Class">What is your password</label>
+                <br>
+                <input type="password" name="Class" id="year" value="CS">
+                <br>
+
+                <label for="Age">What is your age</label>
+                <br>
+                <input type="number" name="age" id="age" step="1">
+                <br>
+
+                <span>0</span>
+                <input type="range" name="age" id="age" step="1" min="0" max="100">
+                <span>20</span>
+
+                <h1>Favorite Superheroes</h1>
+                <label for="batman">Batman</label>
+                <input id="batman" name="batman" type="checkbox" value="batman">
+                <br>
+                <label for="superman">Superman</label>
+                <input id="superman" name="superman" type="checkbox" value="superman">
+                <br>
+                <label for="spiderman">Spiderman</label>
+                <input id="spiderman" name="spiderman" type="checkbox" value="spiderman">
+                <br>
+
+                <p>What is the sum of 1 + 1?</p>
+                <input type="radio" id="two" name="answer" value="2">
+                <label for="two">2</label>
+                <br>
+                <input type="radio" id="eleven" name="answer" value="11">
+                <label for="two">11</label>
+                <br>
+
+                <label for="lunch">What's for lunch?</label> 
+                <input type="text" list="lunch" id="food" name="food">
+                <datalist id="lunch" name="lunch">
+                    <option value="pizza">Pizza</option>
+                    <option value="curry">Curry</option>
+                    <option value="salad">Salad</option>
+                    <option value="ramen">Ramen</option>
+                    <option value="tacos">Tacos</option>
+                </datalist>   
+                <br>          
+
+                <label for="blog">New Blog Post: </label>
+                <br>
+                <textarea id="blog" name="blog" row="5" cols="30">
+                    
+                </textarea>
+            </form>
+        </div>
+
+        <h4 class="test">Hello World</h4>
+        <h4>Hello World</h4>
+
+        <div class="main">
+            <p>Another paragraph example</p>
+        </div>
+
+        <br><br><br><br><br>
+        <!--New CSS information, Box Method-->
+        <div class="New">
+            <h1 id="banner">Banner at the top</h1>
+            <h2>Subsection header</h2>
+            <p>Information inside the webpage</p>
+            <ul>
+                <li class="visible">link1</li>
+                <li>link2</li>
+            </ul>
+        </div>
+    </body>
+</html>
